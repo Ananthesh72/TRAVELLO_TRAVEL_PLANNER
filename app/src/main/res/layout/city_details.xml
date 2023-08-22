@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7AE7C7">
+
+    <Button
+        android:id="@+id/restroName2"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="184dp"
+        android:layout_marginTop="236dp"
+        android:fontFamily="@font/rubik_medium_italic"
+        android:paddingStart="10dp"
+        android:text="TextView"
+        android:textAlignment="viewStart"
+        android:textColor="#111"
+        android:textSize="12sp"
+        app:backgroundTint="#e5625e"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/restroName1"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="236dp"
+        android:fontFamily="@font/rubik_medium_italic"
+        android:paddingStart="10dp"
+        android:text="TextView"
+        android:textAlignment="viewStart"
+        android:textColor="#111"
+        android:textSize="12sp"
+        app:backgroundTint="#e5625e"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/placeName2"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="184dp"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/rubik_medium_italic"
+        android:paddingStart="10dp"
+        android:text="TextView"
+        android:textAlignment="viewStart"
+        android:textColor="#111"
+        android:textSize="12sp"
+        app:backgroundTint="#4bb3fd"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/cityName"
+        android:layout_width="224dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/rubik_medium_italic"
+        android:text="TextView"
+        android:textColor="#eee"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/hotelName1"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="168dp"
+        android:fontFamily="@font/rubik_medium_italic"
+        android:paddingStart="10dp"
+        android:text="TextView"
+        android:textAlignment="viewStart"
+        android:textColor="#111"
+        android:textSize="12sp"
+        app:backgroundTint="#7d5ba6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/AddPlaceName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="320dp"
+        android:ems="10"
+        android:hint="Add upto 6 places"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="68dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="Places to Visit"
+        android:textColor="#0B0A0A"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/hotelName2"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="184dp"
+        android:layout_marginTop="168dp"
+        android:fontFamily="@font/rubik_medium_italic"
+        android:paddingStart="10dp"
+        android:text="TextView"
+        android:textAlignment="viewStart"
+        android:textColor="#111"
+        android:textSize="12sp"
+        app:backgroundTint="#7d5ba6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/placeName1"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/rubik_medium_italic"
+        android:paddingStart="10dp"
+        android:text="TextView"
+        android:textAlignment="viewStart"
+        android:textColor="#111"
+        android:textSize="12sp"
+        app:backgroundTint="#4bb3fd"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/AddPlaceButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginEnd="68dp"
+        android:text="+"
+        app:backgroundTint="#009688"
+        app:guidelineUseRtl="false"
+        app:iconTint="#00FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:rippleColor="#00FFFFFF" />
+
+    <Button
+        android:id="@+id/remPlaceButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginEnd="16dp"
+        android:text="-"
+        app:backgroundTint="#009688"
+        app:guidelineUseRtl="false"
+        app:iconTint="#00FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:rippleColor="#00FFFFFF" />
+
+    <LinearLayout
+        android:id="@+id/buttonContainer"
+        android:layout_width="360dp"
+        android:layout_height="419dp"
+        android:layout_marginTop="376dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!--        Dynamically added button will be place here -->
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
